@@ -43,13 +43,13 @@ body {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     .container {
-        width: 700px;
+        width: 750px;
     }
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     .container {
-        width: 1000px;
+        width: 970px;
     }
 }
 
