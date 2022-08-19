@@ -15,6 +15,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 /* Global CSS */
@@ -26,7 +28,12 @@ body {
     font-family: "Work Sans", sans-serif;
 }
 
-.container { /*global container css*/
+ul {
+    list-style: none;
+}
+
+/*global container css*/
+.container { 
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -46,6 +53,7 @@ body {
         width: 750px;
     }
 }
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     .container {
@@ -54,12 +62,11 @@ body {
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) { 
+@media (min-width: 1200px) { 
     .container {
-        width: 1390px;
+        width: 1170px;
     }
 }
-
 /* Start Component */
 .special-heading {
     font-size: 100px;
@@ -95,12 +102,10 @@ body {
 
 /* Start Header CSS */
 header {
-    /* background-color:black; */
     padding: 20px;
 }
 
 header .container {
-    /* background-color: antiquewhite; */
     padding-left: 15px;
     padding-right: 15px;
     /* La valeur auto indique que le margin va prendre ce qui reste comme valeur aprés le width */
