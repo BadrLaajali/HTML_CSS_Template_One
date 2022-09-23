@@ -7,7 +7,7 @@
     --bg-color: #f6f6f6;
     --section-padding : 60px;
     --paragraph-color : #444;
-    --main-duration : 0.3s;
+    --main-transition : 0.3s;
 }
 
 /* CSS Reset */
@@ -163,7 +163,7 @@ header .links ul li a {
     padding: 8px;
     text-decoration: none;
     color: #333;
-    transition: var(--main-duration);
+    transition: var(--main-transition);
 }
 
 header .links ul li a:hover {
